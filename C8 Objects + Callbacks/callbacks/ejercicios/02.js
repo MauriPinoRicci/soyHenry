@@ -1,8 +1,9 @@
-function cambiarCadena(string, callback) {
-   // Aplica la función de callback al string y devuelve el resultado.
-   // La función de callback se encargará de recibir el string y devolverlo con los cambios.
-   // Si no se recibe una función callback entonces se debe retornar el string original.
+function actualizarValorPropiedad(objeto, propiedad, valor) {
+   // Actualiza el valor de la propiedad del objeto recibidos en la función.
+   // Retorna el objeto actualizado.
    // Tu código:
+   objeto[propiedad] = valor;
+   return objeto;
 }
 
-module.exports = cambiarCadena;
+module.exports = actualizarValorPropiedad;

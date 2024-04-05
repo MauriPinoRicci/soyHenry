@@ -3,6 +3,9 @@
 function elevarAlCuadrado(num) {
   // Retorna el valor de "num" elevado al cuadrado.
   // Tu código:
+  let resp = Math.pow(num,2)
+
+  return resp 
 }
 
 module.exports = elevarAlCuadrado;
